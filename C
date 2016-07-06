@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+clrscr();
+printf("Enter the first number\n");
+scanf("%d",&a);
+printf("Enter the secound number\n");
+scanf("%d",&b);
+printf("Enter the operation");
+scanf("%d",&c);
+switch(c)
+{
+case 1:
+{
+printf("The sum is %d",a+b);
+break;
+}
+case 2:
+{
+printf("The subtraction %d",a-b);
+break;
+}
+case 3:
+{
+printf("The multiplication is %d",a*b);
+break;
+}
+case 4:
+{
+printf("The quotient is %d",a/b);
+break;
+}
